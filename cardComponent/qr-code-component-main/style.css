@@ -1,0 +1,23 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: rgb(206, 218, 229);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+div{
+    display: flex;
+    width: 250px;
+    height: 380px;
+    border: 1px solid black;;
+}
